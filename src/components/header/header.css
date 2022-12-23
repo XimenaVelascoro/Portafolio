@@ -1,0 +1,9 @@
+.me,
+.foto1 {
+  position: absolute;
+  margin-top: 1rem;
+  width: 350px;
+  height: 350px;
+  border-radius: 200px;
+  left: 0px;
+}
