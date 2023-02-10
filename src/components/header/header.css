@@ -1,9 +1,49 @@
-.me,
-.foto1 {
+header{
+  height: 100vh;
+  padding-top: 7rem;
+  overflow: hidden;
+}
+.header{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+/* ============ CTA ============ */
+.CTA{
+  margin-top: 2.5rem;
+  /*esto es por si hubiesen 2 botones con lña funcion GAP y 1.2 rem les doy espacio entre estos*/
+  display: flex;
+  justify-content: center;
+  
+}
+ 
+/* ============ HEADER SOCIALS ============ */
+.header__socials{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
   position: absolute;
-  margin-top: 1rem;
-  width: 350px;
-  height: 350px;
-  border-radius: 200px;
-  left: 0px;
+  left: 3rem;
+  bottom: 3rem;
+}
+/*pseudo elemento posterior*/
+.header__socials::after{
+  content: '';
+  width: 1px;
+  height: 2rem;
+  background: var(--color-primary);
+}
+/* ============ ME ============ */
+.foto1 {
+  /*el fondo de mi foto es azul agua marina PARA TENER EN CUENTA*/
+  background: var(--color-primary);
+  width: 20rem;
+  height: 25rem;
+  position: absolute;
+  left: calc(50% - 11rem);
+  /* lo anterio tambien se puede lograr de la siguiente manera
+   left:50%; transform: translateX(-50$%)*/
+  margin-top: 4rem;
+  border-radius: 12rem;
 }

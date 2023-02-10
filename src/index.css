@@ -11,16 +11,21 @@
 }
 :root{
     /*vamos a crear variables*/
-    --color-bg:#F8F8F7;
-    --color-bg-variant: #B3497C;
+    --color-bg:#9f4eaa;
+    --color-bg-variant: #510370;
     /*color letra*/
-    --color-primary: #000;
+    --color-primary: rgba(162, 17, 125, 0.952);
     /*color titulos*/
     --color-primary-variant: #B3497C;
     --color-white: #ffff;
-    --color-light: #11DBFA;
+    --color-light: #6c168b;
+    /*Variable de transicion LOOK THAT ;-; */
+    --transition: all 400ms ease;
+    /*ancho de una clase contenedora de la mayoria de componentes */
     --container-width-lg:75%;
+    /*para tablets*/
     --container-width-md:86%;
+    /*small devices like a cellphone */
     --container-width-ms:90%;
 
 
@@ -30,6 +35,7 @@ html {
   }
   
   ::-webkit-scrollbar {
+    /*para eliminar la barra de desplazamiento*/
     display: none;
   }
   
@@ -38,7 +44,9 @@ html {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
+    /*background-image: url(https://media.giphy.com/media/w9Sb2fZrLPxHUFxLV2/giphy.gif);*/
+    background-image: url(../src/assets/klipartz.com\(3\).png);
+    background-size: cover;
   }
   
   /* ---------------- GENERAL STYLESS --------------*/
@@ -55,39 +63,46 @@ html {
   h5 {
     font-weight: 500;
   }
+   
   
   h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
   
-  section {
+  section > h2
+  section > h5 {
+    text-align: center;
+    color: var(--color-light);
     margin-top: 8rem;
+    font-size: 3  rem;
   }
-  
-  section > h2, section h5 {
+  /*hijo directo de cada section
+  como subtitulo y titulo en cada section*/
+  section > h2, section > h5 {
     text-align: center;
     color: var(--color-light);
   }
-  
+  /*aqui ira el color primario de cada titulo */
   section > h2 {
     color: var(--color-primary);
     margin-bottom: 3rem;
   }
   
   .text-light {
-    color: var(--color-light);
+    color: #860b47;
   }
-  
+  /*================ PREGUNTAR A LA PROFE ===============*/
   a{
     color: var(--color-primary);
     transition: var(--transition);
   }
-  
+  /*al pasar el cursor el color cambiara a blanco*/
   a:hover {
     color: var(--color-white);  
   }
-  
+  /*para los diferentes botones que vamos a tener*/
   .btn {
+    /*se ajusta a su contenido */
     width: max-content;
     display: inline-block;
     color: var(--color-primary);
@@ -97,16 +112,17 @@ html {
     border: 1px solid var(--color-primary);
     transition: var(--transition);
   }
-  
+  /*efecto de desplazamiento*/
   .btn:hover {
     background: var(--color-white);
     color: var(--color-bg);
     border-color: transparent;
   }
-  
+  /*para unos botones especificos */
   .btn-primary {
     background: var(--color-primary);
     color: var(--color-bg);
+  
   }
   
   img {
@@ -130,6 +146,7 @@ html {
   
   /* ------------- MEDIA QUERIES (SMALL DEVICES)-------*/
   
+
   @media screen and (max-width: 600px) {
     .container {
       width: var(--container-width-sm);}
