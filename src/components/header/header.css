@@ -10,8 +10,8 @@ header{
 }
 /* ============ CTA ============ */
 .CTA{
-  margin-top: 2.5rem;
-  /*esto es por si hubiesen 2 botones con lña funcion GAP y 1.2 rem les doy espacio entre estos*/
+  margin-top: 2.5rem; 
+  /*esto es por si hubiesen 2 botones con lña funcion GAP: 1.2 rem les doy espacio entre estos*/
   display: flex;
   justify-content: center;
   
@@ -24,7 +24,7 @@ header{
   align-items: center;
   gap: 0.8rem;
   position: absolute;
-  left: 3rem;
+  left: 1rem;
   bottom: 3rem;
 }
 /*pseudo elemento posterior*/
@@ -38,12 +38,14 @@ header{
 .foto1 {
   /*el fondo de mi foto es azul agua marina PARA TENER EN CUENTA*/
   background: var(--color-primary);
-  width: 20rem;
-  height: 25rem;
+  width: 22rem;
+  height: 30rem;
   position: absolute;
   left: calc(50% - 11rem);
   /* lo anterio tambien se puede lograr de la siguiente manera
-   left:50%; transform: translateX(-50$%)*/
+   left:50%; transform: translateX(-50$%)
+   el borde se le da a cada esquina*/
   margin-top: 4rem;
-  border-radius: 12rem;
+  border-radius: 12rem 12rem 0 0;
+  
 }
