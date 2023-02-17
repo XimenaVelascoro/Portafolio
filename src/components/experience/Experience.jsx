@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 
 const Experience = () => {
   return (
-    <div>Experience</div>
+    <section id='experience'>Experience</section>//llama al #experience del archivo nav.jsx
   )
 }
 

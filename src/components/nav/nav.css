@@ -1,0 +1,29 @@
+nav{
+    background: rgba(0, 0, 0, 0.4);
+    width: max-content;
+    /* max-c para que se ajuste al ancho de todo su contenido */
+    display: block;
+    padding: 0.7rem 1.7rem;
+    /*padding horizontal como vertical*/
+    z-index: 2;
+    /*se cambia el indice a z*/
+    position: fixed;
+    /*hice uso del top ya que al poner position: fixed
+    se desaparecia el nav del dom*/
+    left: 50%;
+    transform: translateX(-50%);
+    /*EL transform para que quede axactamente en la mitad del dom*/
+    border-radius: 3rem;
+    bottom: 2rem;
+    /*sin el botton me hubiera tocado usar top: 20rem 
+    porque al darle position:fixed se me desaparecia del dom el nav*/
+    display: flex;
+    gap: 0.8rem;
+    backdrop-filter: blur(15px);
+    /*este sirve para que tome el color del fondo cuando le den scroll down*/
+}
+
+nav a{
+    background: transparent;
+    padding: 0.8rem;
+}

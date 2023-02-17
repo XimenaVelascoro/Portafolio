@@ -2,7 +2,7 @@ import React from 'react'
 
 const Portafolio = () => {
   return (
-    <div>Portafolio</div>
+    <section id='portafolio'>Portafolio</section>//llama al #contact del archivo nav.jsx
   )
 }
 
