@@ -8,8 +8,8 @@ const Header = () => {
   return (
     <header>
       <div className="header">
-        <h2 className="text-light">Hi I'm </h2>
-        <h1 id="home">Laura Ximena Velasco Rocha</h1>
+        <h3 className="text-light">Hi I'm </h3>
+        <h2 id="home">Laura Ximena Velasco Rocha</h2>
         <h2 className="text-light">Fullstack Developer</h2>
         <CTA />
         <HeaderSocials/>
