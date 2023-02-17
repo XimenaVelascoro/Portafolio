@@ -1,5 +1,5 @@
 nav{
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(255, 249, 249, 0.4);
     width: max-content;
     /* max-c para que se ajuste al ancho de todo su contenido */
     display: block;
@@ -26,4 +26,18 @@ nav{
 nav a{
     background: transparent;
     padding: 0.8rem;
+    border-radius: 50%;
+    display: flex;
+    color: var(--color-light);
+    font-size: 1rem;  
 }
+
+nav a:hover{
+    background-color:#e1c8ee;
+}
+
+nav a.active{
+    background: #e1c8ee;
+    color: #510370;
+}
+/*clase activa como si estuviera todo el tiempo en esa opcion el home*/

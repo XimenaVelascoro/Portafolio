@@ -11,10 +11,10 @@
 }
 :root{
     /*vamos a crear variables*/
-    --color-bg:#9f4eaa;
+    --color-bg:#b80db0;
     --color-bg-variant: #510370;
     /*color letra*/
-    --color-primary: rgba(162, 17, 125, 0.952);
+    --color-primary: rgba(212, 146, 196, 0.952);
     /*color titulos*/
     --color-primary-variant: #B3497C;
     --color-white: #ffff;

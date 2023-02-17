@@ -6,18 +6,20 @@ import {BiBookAlt} from "react-icons/bi";
 import {RiServiceLine} from "react-icons/ri"
 import {BiMessageAltDetail} from "react-icons/bi";
 import {FaLaptopCode} from "react-icons/fa";
+import { useState } from 'react';
 
 
 
 const Nav = () => {
+  const [activeNav, setActiveNav] = useState("#")
   return (
     <nav>
-      <a href={"#home"}><SlHome/></a>
-      <a href={"#about"}><SlUserFemale/></a>
-      <a href={"#experience"}><FaLaptopCode/></a>
-      <a href={"#services"}><RiServiceLine/></a>
-      <a href={"#portafolio"}><BiBookAlt/></a>
-      <a href={"#contact"}><BiMessageAltDetail/></a>
+      <a href={"#home"} onClick={()=> setActiveNav("#home")} className={activeNav === "#home" ? "active" : ""}><SlHome/></a>
+      <a href={"#about"}  onClick={()=> setActiveNav("#about")} className={activeNav === "#about" ? "active" : ""}><SlUserFemale/></a>
+      <a href={"#experience"}  onClick={()=> setActiveNav("#experience")} className={activeNav === "#experience" ? "active" : ""}><FaLaptopCode/></a>
+      <a href={"#services"}  onClick={()=> setActiveNav("#services")} className={activeNav === "#services" ? "active" : ""}><RiServiceLine/></a>
+      <a href={"#portafolio"} onClick={()=> setActiveNav("#portafolio")} className={activeNav === "#portafolio" ? "active" : ""}><BiBookAlt/></a>
+      <a href={"#contact"}  onClick={()=> setActiveNav("#contact")} className={activeNav === "#contact" ? "active" : ""}><BiMessageAltDetail/></a>
     </nav>
   )
 }
