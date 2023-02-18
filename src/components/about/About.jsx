@@ -22,24 +22,25 @@ const About = () => {
               <FiAward className="about__icon" />
               <h5>Experience</h5>
               <small>
-                I've been practicing different languages ​​for 5 months
+               He estado practicando diferentes lenguajes de programación fullstack durante los ultimos 5 meses 
               </small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>Customers in the gastronomy sector</small>
+              <small>He avanzado con mis conocimientos al crear una pagina web para un restaurante Italiano, con carrito de compras</small>
             </article>
             <article className="about__card">
               <BsFolderPlus className="about__icon" />
               <h5>Projects</h5>
-              <small>7+ completed proyects</small>
+              <small>7+ Proyectos Completos</small>
               <p>
                 Soy una desarrolladora web full-stack junior apasionada por crear experiencias de
                 alta calidad atractivas al usuario. He trabajado en el
                 desarrollo de aplicaciones web utilizando tecnologías modernas
-                como Html, CSS, Javascript, React, Mysql y MongoDB, con
-                otras complementarias como lo son Figma, Trello, para hacer pruebas de los diferentes endpoints como postman 
+                como Html, CSS, Javascript, React, Mysql y MongoDB, e realizado pruebas de los diferentes 
+                endpoints como postman ademas de herramientas
+                 complementarias como lo son Figma, Trello,  
                 o frameworks como lo son boostrapn y Node.js. Con
                 conocimientos básicos de marketing digital y gerencia de
                 proyectos. Estoy enfocada en mejorar constantemente mis
@@ -47,6 +48,7 @@ const About = () => {
                 metodologías para asegurar la entrega de proyectos de alta
                 calidad para brindar soluciones eficientes en tiempo y forma.
               </p>
+              <a href="#contact" className="btn btn-primary">Mi Contacto</a>
             </article>
           </div>
         </div>
