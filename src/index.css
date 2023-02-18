@@ -11,14 +11,14 @@
 }
 :root{
     /*vamos a crear variables*/
-    --color-bg:#b80db0;
-    --color-bg-variant: #510370;
+    --color-bg: #F27127 ;
+    --color-bg-variant: #A6381F;
     /*color letra*/
-    --color-primary: rgba(212, 146, 196, 0.952);
+    --color-primary: #A6381F;
     /*color titulos*/
-    --color-primary-variant: #B3497C;
+    --color-primary-variant: #F28A2E;
     --color-white: #ffff;
-    --color-light: #6c168b;
+    --color-light: #A6381F;
     /*Variable de transicion LOOK THAT ;-; */
     --transition: all 400ms ease;
     /*ancho de una clase contenedora de la mayoria de componentes */
@@ -95,7 +95,7 @@ html {
   }
   
   .text-light {
-    color: #860b47;
+    color: #A6381F;
   }
   /*================ PREGUNTAR A LA PROFE ===============*/
   a{

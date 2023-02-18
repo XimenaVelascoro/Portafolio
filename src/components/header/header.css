@@ -1,24 +1,23 @@
-header{
+header {
   height: 180vh;
   padding-top: 9rem;
   overflow: hidden;
 }
-.header{
-    text-align: center;
-    height: 100%;
-    position: relative;
+.header {
+  text-align: center;
+  height: 100%;
+  position: relative;
 }
 /* ============ CTA ============ */
-.CTA{
-  margin-top: 2.5rem; 
+.CTA {
+  margin-top: 2.5rem;
   /*esto es por si hubiesen 2 botones con lña funcion GAP: 1.2 rem les doy espacio entre estos*/
   display: flex;
   justify-content: center;
-  
 }
- 
+
 /* ============ HEADER SOCIALS ============ */
-.header__socials{
+.header__socials {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,8 +27,8 @@ header{
   bottom: 3rem;
 }
 /*pseudo elemento posterior*/
-.header__socials::after{
-  content: '';
+.header__socials::after {
+  content: "";
   width: 1px;
   height: 2rem;
   background: var(--color-primary);
@@ -37,7 +36,7 @@ header{
 /* ============================== ME ================================= */
 .foto1 {
   /*el fondo de mi foto es azul agua marina PARA TENER EN CUENTA*/
-  background:linear-gradient(var(--color-primary), transparent) ;
+  background: linear-gradient(var(--color-primary), transparent);
   width: 22rem;
   height: 30rem;
   position: absolute;
@@ -50,13 +49,11 @@ header{
   overflow: hidden;
   /*para evitar que el contenido largo se muestre fuera de los límites
    de la caja o tener un desbordamiento oculto.*/
-  padding: 5rem 1,5rem 1,5rem 1,5rem;
-
-
+  padding: 5rem 1, 5rem 1, 5rem 1, 5rem;
 }
 
 /* ============================== SCROLL DOWN ================================= */
-.scroll__down{
+.scroll__down {
   position: absolute;
   right: -1rem;
   bottom: 5rem;
@@ -65,27 +62,22 @@ header{
   font-size: 0.9rem;
 }
 
-    /* ---- MEDIA QUERIES (MEDIUM DEVICES)-------*/
-  
-    @media screen and (max-width: 1024px) {
-      .header{
-        height: 68vh;
-      }
-      
-    }
+/* ---- MEDIA QUERIES (MEDIUM DEVICES)-------*/
 
+@media screen and (max-width: 1024px) {
+  .header {
+    height: 68vh;
+  }
+}
 
+/* ----------------------- MEDIA QUERIES (SMALL DEVICES)-----------------*/
 
-
-
-  /* ----------------------- MEDIA QUERIES (SMALL DEVICES)-----------------*/
-  
-
-   @media screen and (max-width: 600px){
-    .header{
-      height: 100vh;
-    }
-    .header__socials, .scroll__down{
-      display: none;
-    }
-   }
+@media screen and (max-width: 600px) {
+  .header {
+    height: 100vh;
+  }
+  .header__socials,
+  .scroll__down {
+    display: none;
+  }
+}

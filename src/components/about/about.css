@@ -1,0 +1,104 @@
+.about__container{
+    display: grid;
+    grid-template-columns: 35% 50%;
+    /*de izq 35 y de derecha 50*/
+    gap: 10%
+}
+
+.about__me{
+    width: 100%;
+    aspect-ratio: 1/1;
+    /*para que siempre la altura coincida con el ancho*/
+    border-radius: 2rem;
+    background: linear-gradient(45deg, transparent, var (--color-primary), transparent);
+    display: grid;
+    /*para poder colocar la img en el centro*/
+    place-items: center;
+}
+
+.about__me_img{
+    border-radius: 2rem;
+    overflow: hidden;
+    /*desbordamiento de la img de encabezado*/
+    transform:rotate(10deg);
+    /*transfor y rotar*/
+    transition: var(--transition);
+}
+
+.about__me_img:hover{
+    transform: rotate(0);
+}
+
+.about__cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /*la columna se repite 3 veces 1fraccion*/
+    gap: 1.5rem;
+}
+
+.about__card{
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+    /*para que la transision de abajo se vea mas suave*/
+}
+
+.about__card:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor:pointer;
+}
+/*al pasar el mause tornara a transparente con un lindo borde naranja*/
+
+.about__icon{
+    color: var(--color-bg);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.about__card h5{
+    font-size: 1rem;
+    /*tamaño de los titulos*/
+}
+
+.about__card small{
+    font-size: 0.8rem;
+    /*no le cambio el color porque no me favorece en el diseño*/
+}
+
+.about__content p{
+    margin: 2rem 0 2.6rem;
+    color: var(--color-bg-variant);
+}
+
+.about__content a{
+    display: flex;
+    float: right;
+    /*asi muevo el boton a la derecha*/
+}
+
+
+
+/* ---- MEDIA QUERIES (MEDIUM DEVICES)-------*/
+
+@media screen and (max-width: 1024px) {
+    .header {
+      height: 68vh;
+    }
+  }
+  
+  /* ----------------------- MEDIA QUERIES (SMALL DEVICES)-----------------*/
+  
+  @media screen and (max-width: 600px) {
+    .header {
+      height: 100vh;
+    }
+    .header__socials,
+    .scroll__down {
+      display: none;
+    }
+  }
+  
