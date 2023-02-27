@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import me from "../../assets/mee.jpeg";
+import me from "../../assets/me.jpeg";
 import { FiAward } from "react-icons/fi";
 import { FiUsers } from "react-icons/fi";
 import { BsFolderPlus } from "react-icons/bs";
@@ -30,16 +30,14 @@ const About = () => {
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
               <small>
-                He avanzado con mis conocimientos al crear una pagina web para
-                un restaurante Italiano, con carrito de compras
+                Desarrollo de una interfaz interactiva para pedidos digitales, sector gastronomia
               </small>
             </article>
             <article className="about__card">
               <BsFolderPlus className="about__icon" />
               <h5>Projects</h5>
               <small>
-                7+ Proyectos Completos Web piccola Gertru, Portafolio, Rick and
-                Morty, Calculator, TODO List, Movie data base ...{" "}
+                7+ Proyectos Completos realizados en el Bootcamp{" "}
               </small>
             </article>
           </div>

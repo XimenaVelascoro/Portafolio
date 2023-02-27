@@ -75,11 +75,17 @@ html {
     /*/esto permite que tengo la altura de lo que se vera en la pantalla completa */
   }
 
-  section > h2
+
   section > h5 {
     text-align: center;
     color: var(--color-light);
     margin-top: 6rem;
+    font-size: 3  rem;
+  }
+  section > h2 {
+    text-align: center;
+    color: var(--color-light);
+    margin-top: 1rem;
     font-size: 3  rem;
   }
   /*hijo directo de cada section
@@ -97,7 +103,12 @@ html {
   .text-light {
     color: #A6381F;
   }
+
+  .text-font-small{
+    color: aliceblue;
+  }
   /*================ PREGUNTAR A LA PROFE ===============*/
+
   a{
     color: var(--color-primary);
     transition: var(--transition);
