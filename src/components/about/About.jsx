@@ -32,7 +32,7 @@ const About = () => {
               <small>
                 Desarrollo de una interfaz interactiva para pedidos digitales, sector gastronomia
               </small>
-            </article>
+            </article>  
             <article className="about__card">
               <BsFolderPlus className="about__icon" />
               <h5>Projects</h5>

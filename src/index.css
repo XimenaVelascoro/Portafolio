@@ -26,7 +26,7 @@
     /*para tablets*/
     --container-width-md:86%;
     /*small devices like a cellphone */
-    --container-width-ms:90%;
+    --container-width-sm:90%;
 
 
 }
@@ -71,7 +71,7 @@ html {
   
   section {
     margin-top: 6rem;
-    height: 100vh;
+    
     /*/esto permite que tengo la altura de lo que se vera en la pantalla completa */
   }
 
@@ -146,6 +146,10 @@ html {
     display: block;
     width: 100%;
     object-fit: cover;
+  }
+ 
+  ul{
+    margin-left: 4rem;
   }
   
   /* -------------------------- MEDIA QUERIES (MEDIUM DEVICES)---------------*/
