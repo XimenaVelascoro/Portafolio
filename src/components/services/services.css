@@ -1,16 +1,16 @@
 .services__container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    gap: 0.8rem;
     align-items: center;
-    font-size: 0.9rem;
     padding: 0 3rem 0 3rem;
+    
 }
 
 .service{
     background: var(--color-bg-variant);
     border-radius: 0 0 2rem 2rem;
-    border: 1px solid var(--color-bg);
+    border: 1px solid transparent;
     height: fit-content;
     transition: var(--transition);
 }
@@ -23,7 +23,7 @@
 
 .service__head{
     background-color: var(--color-bg-variant);
-    padding: 2rem;
+    padding: 1.2rem;
     border-radius: 0 0 2rem 2rem ;
     box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
 }
@@ -32,4 +32,49 @@
     color:var(--color-bg);
     font-size: 1rem;
     text-align: center;
+}
+
+.service__list{
+    padding: 0.6rem;  
+   
+}
+
+.service__list li{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 0.5rem;
+    
+
+}
+
+.service__list-icon{ 
+  margin-top: 0.5rem;   
+  padding-right: 0;
+  color: var(--color-bg);
+  margin-left: -3rem;
+  margin-right: 0rem;
+  /*se logro sin flex*/
+}
+
+.service__list p{
+    font-size: 0.9rem;
+    color: var(--color-white);
+    border: 0;
+    margin-left: -11rem;
+  margin-right: 0.2rem;
+  /*esto de usar flex para alinear el icon al p fue todo un cuento*/
+    
+}
+
+/*============================MEDIA QUERIES (MEDIUM DEVICES)===========================================*/
+@media screen and(max-width:1024px) {
+  .services__container{
+    grid-template-columns: 1fr, 1fr;
+    gap: 2rem;
+  }
+}
+
+/*============================MEDIA QUERIES (SMALL DEVICES)===========================================*/
+@media screen and(max-width:600px) {
+  
 }

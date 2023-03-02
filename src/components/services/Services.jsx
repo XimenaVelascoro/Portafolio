@@ -2,6 +2,7 @@ import React from 'react';
 import './services.css'
 import {GiCheckMark} from 'react-icons/gi'
 
+
 const Services = () => {
   return (
     <section id='services'>
@@ -15,7 +16,7 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <GiCheckMark className='service__list-icon'/>
-              <p>Conocimiento del usuario y sus necesidades, para diseñar experiencias mas efectivas y satisfactorias
+              <p>Conocimiento del usuario y sus necesidades para diseñar experiencias mas efectivas y satisfactorias
               </p>
             </li>
             <li>

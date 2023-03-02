@@ -17,7 +17,7 @@
     --color-primary: #A6381F;
     /*color titulos*/
     --color-primary-variant: #F28A2E;
-    --color-white: #ffff;
+    --color-white: #ffffff;
     --color-light: #A6381F;
     /*Variable de transicion LOOK THAT ;-; */
     --transition: all 400ms ease;
@@ -28,6 +28,7 @@
     /*small devices like a cellphone */
     --container-width-sm:90%;
     --color-service:#551a06; /* segun yo este es un color browniosito*/
+    --color-black:#0a0a0a;
 
 
 }
