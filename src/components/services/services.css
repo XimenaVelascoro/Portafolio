@@ -1,80 +1,125 @@
-.services__container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 0.8rem;
-    align-items: center;
-    padding: 0 3rem 0 3rem;
-    
+.services__container {
+  display:flex;
+  gap: 0.8rem;
+  align-items: center;
+  padding: 0 2rem 0 2rem;
+}
+/*_________________________________________________________*/
+.service1 {
+  background: var(--color-bg-variant);
+  border-radius: 0 0 2rem 2rem;
+  border: 1px solid transparent;
+  height: fit-content;
+  transition: var(--transition);
+}
+.service2 {
+  background: var(--color-bg-variant);
+  border-radius: 0 0 2rem 2rem;
+  border: 1px solid transparent;
+  height: fit-content;
+  transition: var(--transition);
+}
+.service3 {
+  background: var(--color-bg-variant);
+  border-radius: 0 0 2rem 2rem;
+  border: 1px solid transparent;
+  height: fit-content;
+  transition: var(--transition);
 }
 
-.service{
-    background: var(--color-bg-variant);
-    border-radius: 0 0 2rem 2rem;
-    border: 1px solid transparent;
-    height: fit-content;
-    transition: var(--transition);
+.service1:hover {
+  background: transparent;
+  border-color: var(--color-bg-variant);
+  cursor: default;
+}
+.service2:hover {
+  background: transparent;
+  border-color: var(--color-bg-variant);
+  cursor: default;
+}
+.service3:hover {
+  background: transparent;
+  border-color: var(--color-bg-variant);
+  cursor: default;
+}
+/*_________________________________________________________*/
+
+.service__head {
+  background-color: var(--color-bg-variant);
+  padding: 0.98rem;
+  border-radius: 0 0 2rem 2rem;
+  box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
 }
 
-.service:hover{
-    background: transparent;
-    border-color: var(--color-bg-variant);
-    cursor: default;
+.service__head h3 {
+  color: var(--color-bg);
+  font-size: 1rem;
+  text-align: center;
 }
 
-.service__head{
-    background-color: var(--color-bg-variant);
-    padding: 1.2rem;
-    border-radius: 0 0 2rem 2rem ;
-    box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+.service__list {
+  padding: 0.5rem;
 }
 
-.service__head h3{
-    color:var(--color-bg);
-    font-size: 1rem;
-    text-align: center;
+.service__list li {
+ display: grid;
+ grid-template-columns: 1fr, 1fr;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
-.service__list{
-    padding: 0.6rem;  
-   
-}
-
-.service__list li{
-   display: grid;
-   grid-template-columns: repeat(2, 1fr);
-    margin-bottom: 0.5rem;
-    
-
-}
-
-.service__list-icon{ 
-  margin-top: 0.5rem;   
+.service__list-icon {
+  
   padding-right: 0;
   color: var(--color-bg);
-  margin-left: -3rem;
-  margin-right: 0rem;
-  /*se logro sin flex*/
+  margin-left: -3.4rem;
+  margin-right: 0;
+
+  
+  /*se margin left -3 y rigth  0 logro sin flex*/
 }
 
-.service__list p{
-    font-size: 0.9rem;
-    color: var(--color-white);
-    border: 0;
-    margin-left: -11rem;
-  margin-right: 0.2rem;
-  /*esto de usar flex para alinear el icon al p fue todo un cuento*/
-    
+.service__list p {
+  font-size: 0.9rem;
+  color: var(--color-white);
+  
+ 
+ 
+  /*esto de usar flex para alinear el icon al p fue todo un cuento    margin left '11 y rith 0.2'*/
 }
 
 /*============================MEDIA QUERIES (MEDIUM DEVICES)===========================================*/
-@media screen and(max-width:1024px) {
-  .services__container{
-    grid-template-columns: 1fr, 1fr;
-    gap: 2rem;
+@media screen and (max-width:1024px) {
+  .service__list-icon{
+    display: none;
   }
+  .services__container{
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    grid-gap: 2rem;
+ 
+  }
+  .service__list{
+    grid-template-columns:max-content;
+  }
+  .service__list p {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+  }
+  
 }
 
 /*============================MEDIA QUERIES (SMALL DEVICES)===========================================*/
-@media screen and(max-width:600px) {
-  
+@media screen and (max-width:600px) {
+  .services__container{
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .service__list-icon{
+    display:flex;
+  }
+  .service3{
+    display: none;
+  }
 }

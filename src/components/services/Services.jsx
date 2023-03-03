@@ -9,16 +9,11 @@ const Services = () => {
       <h5>Lo que puedo</h5>
       <h2>Ofrecer</h2>
       <div className="container services__container">
-        <article className="service">
+        <article className="service1">
           <div className="service__head">
             <h3>UX/UI Design</h3>
           </div>
           <ul className='service__list'>
-            <li>
-              <GiCheckMark className='service__list-icon'/>
-              <p>Conocimiento del usuario y sus necesidades para diseñar experiencias mas efectivas y satisfactorias
-              </p>
-            </li>
             <li>
               <GiCheckMark className='service__list-icon'/>
               <p>Diseñar para la usabilidad, para facilitarle procesos al usuario
@@ -47,7 +42,7 @@ const Services = () => {
           </ul>
         </article>
         {/*END OF UX/UI EXPERIENCE */}
-        <article className="service">
+        <article className="service2">
           <div className="service__head">
             <h3>Agile Methodologies</h3>
           </div>
@@ -81,7 +76,7 @@ const Services = () => {
           </ul>
         </article>
         {/*END OF WEB DEBELOPMENT */}
-        <article className="service">
+        <article className="service3">
           <div className="service__head">
             <h3>Backlog</h3>
           </div>
