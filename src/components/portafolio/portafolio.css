@@ -1,0 +1,37 @@
+.portafolio__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.portafolio__item{
+    background-color: var(--color-bg);
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var (--transition);
+    width: 20rem;
+    height: 30rem;
+    margin: 0rem 0rem 3rem 3rem ;
+}
+
+.portafolio__item:hover{
+    border-color: var(--color--white);
+    background: transparent;
+}
+
+.portafolio__item_img{
+    border-radius: 1.2rem 1.2rem 1.2rem 1.2rem;
+    overflow: hidden;
+    /*para que el contenido no se desborde de sus limites y con hidden todo lo que se desborde se oculta*/
+}
+
+.portafolio__item h3{
+    margin: 1.2 0 2rem;
+}
+
+.portafolio__item_cta{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.2rem;
+}

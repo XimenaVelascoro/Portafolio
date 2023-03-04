@@ -38,6 +38,6 @@ nav a:hover{
 
 nav a.active{
     background: #e1c8ee;
-    color: #F24F13;
+    color: #5e1688 /*#F24F13*/;
 }
 /*clase activa como si estuviera todo el tiempo en esa opcion el home*/

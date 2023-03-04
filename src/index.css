@@ -11,14 +11,14 @@
 }
 :root{
     /*vamos a crear variables*/
-    --color-bg: #F27127 ;
-    --color-bg-variant: #A6381F;
+    --color-bg: #EB5E57 /*#F27127*/ ;
+    --color-bg-variant: #B84A44;  ; /* #A6381F;*/
     /*color letra*/
-    --color-primary: #A6381F;
+    --color-primary: #B84A44/* #A6381F*/;
     /*color titulos*/
-    --color-primary-variant: #F28A2E;
+    --color-primary-variant: #F9CEEE /*#F28A2E*/;
     --color-white: #ffffff;
-    --color-light: #A6381F;
+    --color-light: #B84A44; /*#A6381F*/;
     /*Variable de transicion LOOK THAT ;-; */
     --transition: all 400ms ease;
     /*ancho de una clase contenedora de la mayoria de componentes */
@@ -27,7 +27,7 @@
     --container-width-md:86%;
     /*small devices like a cellphone */
     --container-width-sm:90%;
-    --color-service:#551a06; /* segun yo este es un color browniosito*/
+    --color-service: #cf5a0b/*#551a06*/; /* segun yo este es un color browniosito*/
     --color-black:#0a0a0a;
 
 
@@ -103,11 +103,11 @@ html {
   }
   
   .text-light {
-    color: #A6381F;
+    color: #6B2B28/*#A6381F*/;
   }
 
   .text-font-small{
-    color: aliceblue;
+    color: #6B2B28/* aliceblue*/;
   }
   /*================ PREGUNTAR A LA PROFE ===============*/
 
