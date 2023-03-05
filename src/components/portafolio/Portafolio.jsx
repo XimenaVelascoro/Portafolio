@@ -7,6 +7,51 @@ import img4 from '../../assets/frontyBackTodo.png'
 import img5 from '../../assets/calculator.jpg' /*en pausa*/ 
 import img6 from '../../assets/news.jpg'/*para comenzar */
 
+//la siguiente matriz es con el fin de hacer un mapeo
+const data = [
+  {
+    id:1,
+    image: img1,
+    title: 'RedJods Fundacion juvenil',
+    github: 'https://github.com/programateacademy/red-jods-proyectos-backend',
+    demo: 'https://redjods.netlify.app/'
+  },
+  {
+    id:2,
+    image: img2,
+    title: 'RedJods Fundacion juvenil',
+    github: 'https://github.com/programateacademy/red-jods-proyectos-backend',
+    demo: 'https://redjods.netlify.app/'
+  },
+  {
+    id:3,
+    image: img3,
+    title: 'RedJods Fundacion juvenil',
+    github: 'https://github.com/programateacademy/red-jods-proyectos-backend',
+    demo: 'https://redjods.netlify.app/'
+  },
+  {
+    id:4,
+    image: img4,
+    title: 'RedJods Fundacion juvenil',
+    github: 'https://github.com/programateacademy/red-jods-proyectos-backend',
+    demo: 'https://redjods.netlify.app/'
+  },
+  {
+    id:5,
+    image: img5,
+    title: 'RedJods Fundacion juvenil',
+    github: 'https://github.com/programateacademy/red-jods-proyectos-backend',
+    demo: 'https://redjods.netlify.app/'
+  },
+  {
+    id:6,
+    image: img6,
+    title: 'RedJods Fundacion juvenil',
+    github: 'https://github.com/programateacademy/red-jods-proyectos-backend',
+    demo: 'https://redjods.netlify.app/'
+  }
+]
 
 const Portafolio = () => {
   return (
@@ -14,66 +59,23 @@ const Portafolio = () => {
       <h5>Mi Trabajo Reciente</h5>
       <h2>Portafolio</h2>
       <div className='container portafolio__container'>
-        <article className='portafolio__item'>
+        {
+          data.map(({id, image, title, github, demo}) =>{
+            return(
+              <article key={id} className='portafolio__item'>
           <div className='portafolio__item_img'>
-            <img src={img1} ></img>
-            <h3>Este es un proyecto terminado</h3>
-            <div className='portafolio__item_cta'>
-              <a href='https://github.com/programateacademy/red-jods-proyectos-backend'className='btn' target='_blank'>Github</a>
-            <a href='htppaquivalademo' className='btn' target='_blank'>Demostración</a>
+            <img src={image} alt={title} ></img>
             </div>
-          </div>
-        </article>
-        <article className='portafolio__item'>
-          <div className='portafolio__item_img'>
-            <img src={img2} ></img>
-            <h3>Este es un proyecto terminado</h3>
+            <h3> {title}</h3>
             <div className='portafolio__item_cta'>
-              <a href='https://github.com/programateacademy/red-jods-proyectos-backend'className='btn' target='_blank'>Github</a>
-            <a href='htppaquivalademo' className='btn' target='_blank'>Demostración</a>
+              <a href={github} className='btn' target='_blank'>Github</a>
+            <a href={demo} className='btn' target='_blank'>Demostración</a>
             </div>
-          </div>
+          
         </article>
-        <article className='portafolio__item'>
-          <div className='portafolio__item_img'>
-            <img src={img3} ></img>
-            <h3>Este es un proyecto terminado</h3>
-            <div className='portafolio__item_cta'>
-              <a href='https://github.com/programateacademy/red-jods-proyectos-backend'className='btn' target='_blank'>Github</a>
-            <a href='htppaquivalademo' className='btn'  target='_blank'>Demostración</a>
-            </div>
-          </div>
-        </article>
-        <article className='portafolio__item'>
-          <div className='portafolio__item_img'>
-            <img src={img4} ></img>
-            <h3>Este es un proyecto terminado</h3>
-            <div className='portafolio__item_cta'>
-              <a href='https://github.com/programateacademy/red-jods-proyectos-backend'className='btn' target='_blank'>Github</a>
-            <a href='htppaquivalademo' className='btn' target='_blank'>Demostración</a>
-            </div>
-          </div>
-        </article>
-        <article className='portafolio__item'>
-          <div className='portafolio__item_img'>
-            <img src={img5} ></img>
-            <h3>Este es un proyecto terminado</h3>
-            <div className='portafolio__item_cta'>
-              <a href='https://github.com/programateacademy/red-jods-proyectos-backend'className='btn' target='_blank'>Github</a>
-            <a href='htppaquivalademo' className='btn' target='_blank'>Demostración</a>
-            </div>
-          </div>
-        </article>
-        <article className='portafolio__item'>
-          <div className='portafolio__item_img'>
-            <img src={img6} ></img>
-            <h3>Este es un proyecto terminado</h3>
-            <div className='portafolio__item_cta'>
-              <a href='https://github.com/programateacademy/red-jods-proyectos-backend'className='btn' target='_blank'>Github</a>
-            <a href='htppaquivalademo' className='btn' target='_blank'>Demostración</a>
-            </div>
-          </div>
-        </article>
+            )
+          })
+        }
        
       </div>
     </section>//llama al #contact del archivo nav.jsx

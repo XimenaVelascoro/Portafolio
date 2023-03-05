@@ -35,3 +35,25 @@
     gap: 1rem;
     margin-bottom: 1.2rem;
 }
+
+/*===============================MEDIA QUERIES (MEDIUM DEVICES)=============================================*/
+@media screen and (max-width: 1024px){
+    .portafolio__container{
+        grid-template-columns: repeat(2, 1fr);
+        gap:0rem;
+    }
+}
+
+
+/*===============================MEDIA QUERIES (SMALL DEVICES)=============================================*/
+@media screen and (max-width: 600px){
+    .portafolio__container{
+        grid-template-columns: 1fr;
+        margin-right: 1rem;
+    }
+    .portafolio__item{
+        width: 18rem;
+        height: 30rem;
+        margin: 0 0 1rem 1rem;
+    }
+}
