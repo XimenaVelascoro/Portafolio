@@ -1,5 +1,5 @@
 import React from 'react'
-import css from './portafolio.css'
+import  './portafolio.css'
 import img1  from '../../assets/LOGO RED JODS.png'
 import img2 from '../../assets/PICCOLA_GERTRU_LOGO.jpg' /*en pausa */
 import img3 from '../../assets/proyectAppMusic.png'

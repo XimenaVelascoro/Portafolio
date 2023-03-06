@@ -12,7 +12,7 @@
 :root{
     /*vamos a crear variables*/
     --color-bg: #EB5E57 /*#F27127*/ ;
-    --color-bg-variant: #B84A44;  ; /* #A6381F;*/
+    --color-bg-variant: #b9514c;  ; /* #A6381F;*/
     /*color letra*/
     --color-primary: #B84A44/* #A6381F*/;
     /*color titulos*/
