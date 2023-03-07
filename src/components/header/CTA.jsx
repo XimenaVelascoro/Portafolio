@@ -1,5 +1,5 @@
 import React from 'react';
-import hv from '../../assets/HVPortfolio.pdf';
+import hv from '../../assets/CvDeveloper.pdf';
 
 
 const CTA = () => {

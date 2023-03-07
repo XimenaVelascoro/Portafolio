@@ -78,7 +78,7 @@
 
 .about__content p {
   margin: 2rem 0 2.6rem;
-  color: var(--color-bg-variant);
+  color: var(--color-bg);
 }
 
 .about__content a {

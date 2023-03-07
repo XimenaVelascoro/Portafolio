@@ -44,7 +44,7 @@ html {
   body{
     font-family: 'Belleza', sans-serif;
     background: var(--color-beige);
-    color: var(--color-white);
+    color: var(--color-beige);
     line-height: 1.7;
     /*background-image: url(https://media.giphy.com/media/w9Sb2fZrLPxHUFxLV2/giphy.gif);*/
     background-image: url(../src/assets/klipartz.com\(3\).png);
@@ -124,7 +124,7 @@ html {
     /*se ajusta a su contenido */
     width: max-content;
     display: inline-block;
-    color: var(--color-bg);
+    color: var(--color-light);
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
     cursor: pointer;
