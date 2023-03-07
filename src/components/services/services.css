@@ -25,21 +25,23 @@
   border: 1px solid transparent;
   height: fit-content;
   transition: var(--transition);
+  
 }
 
 .service1:hover {
   background: transparent;
-  border-color: var(--color-bg-variant);
+  border-color: var(--color-light);
   cursor: default;
+ 
 }
 .service2:hover {
   background: transparent;
-  border-color: var(--color-bg-variant);
+  border-color: var(--color-light);
   cursor: default;
 }
 .service3:hover {
   background: transparent;
-  border-color: var(--color-bg-variant);
+  border-color: var(--color-light);
   cursor: default;
 }
 /*_________________________________________________________*/
@@ -71,7 +73,7 @@
 .service__list-icon {
   
   padding-right: 0;
-  color: var(--color-bg);
+  color: var(--color-light);
   margin-left: -3.4rem;
   margin-right: 0;
 
@@ -81,12 +83,11 @@
 
 .service__list p {
   font-size: 0.9rem;
-  color: var(--color-white);
-  
- 
- 
+  color: var(--color-bg);
   /*esto de usar flex para alinear el icon al p fue todo un cuento    margin left '11 y rith 0.2'*/
 }
+
+
 
 /*============================MEDIA QUERIES (MEDIUM DEVICES)===========================================*/
 @media screen and (max-width:1024px) {

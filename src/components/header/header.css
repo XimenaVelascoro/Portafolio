@@ -8,6 +8,9 @@ header {
   height: 100%;
   position: relative;
 }
+.header h2{
+  color: var(--color-bg);
+}
 /* ============ CTA ============ */
 .CTA {
   margin-top: 2.5rem;

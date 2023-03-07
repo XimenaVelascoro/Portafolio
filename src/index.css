@@ -11,14 +11,14 @@
 }
 :root{
     /*vamos a crear variables*/
-    --color-bg: #EB5E57 /*#F27127*/ ;
-    --color-bg-variant: #b9514c;  ; /* #A6381F;*/
+    --color-bg:  #6f2a86e7 /*#F27127*/ ;
+    --color-bg-variant: #B695C0;  ; /* #A6381F;*/
     /*color letra*/
-    --color-primary: #B84A44/* #A6381F*/;
+    --color-primary: #EDE6DB/* #ff7066/* #B84A44/* #A6381F*/;
     /*color titulos*/
-    --color-primary-variant: #F9CEEE /*#F28A2E*/;
+    --color-primary-variant: #c5414a/* #F9CEEE /*#F28A2E*/;
     --color-white: #ffffff;
-    --color-light: #B84A44; /*#A6381F*/;
+    --color-light: #f5abb0/* #9b35af9a; /*#A6381F*/;
     /*Variable de transicion LOOK THAT ;-; */
     --transition: all 400ms ease;
     /*ancho de una clase contenedora de la mayoria de componentes */
@@ -29,7 +29,7 @@
     --container-width-sm:90%;
     --color-service: #cf5a0b/*#551a06*/; /* segun yo este es un color browniosito*/
     --color-black:#0a0a0a;
-
+    --color-beige: #ede6db;
 
 }
 html {
@@ -43,7 +43,7 @@ html {
   
   body{
     font-family: 'Belleza', sans-serif;
-    background: var(--color-bg);
+    background: var(--color-beige);
     color: var(--color-white);
     line-height: 1.7;
     /*background-image: url(https://media.giphy.com/media/w9Sb2fZrLPxHUFxLV2/giphy.gif);*/
@@ -80,15 +80,15 @@ html {
 
   section > h5 {
     text-align: center;
-    color: var(--color-light);
+    color: var(--color-bg);
     margin-top: 6rem;
-    font-size: 3  rem;
+    font-size: 1rem;
   }
   section > h2 {
     text-align: center;
-    color: var(--color-light);
+    color: var(--color-bg);
     margin-top: 1rem;
-    font-size: 3  rem;
+    font-size: 2rem;
   }
   /*hijo directo de cada section
   como subtitulo y titulo en cada section*/
@@ -98,21 +98,21 @@ html {
   }*/
   /*aqui ira el color primario de cada titulo */
   section > h2 {
-    color: var(--color-primary);
+    color: var(--color-bg);
     margin-bottom: 3rem;
   }
   
   .text-light {
-    color: #6B2B28/*#A6381F*/;
+    color: #920dbb/*#A6381F*/;
   }
 
   .text-font-small{
-    color: #6B2B28/* aliceblue*/;
+    color: var(--color-bg-variant)/* aliceblue*/;
   }
   /*================ PREGUNTAR A LA PROFE ===============*/
 
   a{
-    color: var(--color-primary);
+    color: var(--color-bg);
     transition: var(--transition);
   }
   /*al pasar el cursor el color cambiara a blanco*/
@@ -124,7 +124,7 @@ html {
     /*se ajusta a su contenido */
     width: max-content;
     display: inline-block;
-    color: var(--color-primary);
+    color: var(--color-bg);
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
     cursor: pointer;
@@ -133,14 +133,14 @@ html {
   }
   /*efecto de desplazamiento*/
   .btn:hover {
-    background: var(--color-white);
+    background: var(--color-bg-variant);
     color: var(--color-bg);
     border-color: transparent;
   }
   /*para unos botones especificos */
   .btn-primary {
-    background: var(--color-primary);
-    color: var(--color-bg);
+    background: var(--color-bg);
+    color: var(--color-white);
   
   }
   

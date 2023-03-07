@@ -18,7 +18,7 @@ const Experience = () => {
                 <h4>HTML</h4>
                 <small className="text-font-small">Experiencia Básica</small>
               </div>
-            </article>
+            </article> 
             <article className="experience__details">
               <BsShieldFillCheck className="experience__details-icon" />
               <div>

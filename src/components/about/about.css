@@ -54,13 +54,14 @@
 
 .about__card:hover {
   background: transparent;
-  border-color: var(--color-primary-variant);
+  border-color: var(--color-light);
   cursor: default;
+  color: var(--color-bg);
 }
 /*al pasar el mause tornara a transparente con un lindo borde naranja*/
 
 .about__icon {
-  color: var(--color-bg);
+  color: var(--color-light);
   font-size: 1.4rem;
   margin-bottom: 1rem;
 }
