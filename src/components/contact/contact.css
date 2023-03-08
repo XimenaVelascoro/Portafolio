@@ -1,0 +1,16 @@
+.icon{
+    color: var(--color-bg);
+   
+}
+.contact__container{
+    width: 5%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 1rem;
+    padding: 4rem;
+    margin-bottom: 1rem;
+}
+
+.contact_potions{
+    
+}
