@@ -53,8 +53,8 @@ const Contact = () => {
             
           </article>
         </div>
-        /*a la izquierda de la pantalla*/
-        {/**end onf contact option  */}
+        
+        {/**end onf contact option  a la izquierda de la pantalla */}
         <form action="">
           <input type='text' name='nombre' placeholder="Aqui va tu nombre completo" required/>
           <input type='email' name="email" placeholder="Aqui va tu correo electronico"  required/>
