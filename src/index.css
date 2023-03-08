@@ -47,8 +47,8 @@ html {
     color: var(--color-beige);
     line-height: 1.7;
     /*background-image: url(https://media.giphy.com/media/w9Sb2fZrLPxHUFxLV2/giphy.gif);*/
-    background-image: url(../src/assets/klipartz.com\(3\).png);
-    background-size: cover;
+    background-image: url(https://media.giphy.com/media/G8NKqvsjsHyhJpFGLn/giphy.gif);
+    background-size:contain;
   }
   
   /* ---------------- GENERAL STYLESS --------------*/

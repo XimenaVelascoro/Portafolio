@@ -19,35 +19,35 @@ const data = [
   {
     id:2,
     image: img2,
-    title: 'RedJods Fundacion juvenil',
+    title: 'Restaurante Italiano Piccola Gertru Shopping cart Proyect',
     github: 'https://github.com/programateacademy/red-jods-proyectos-backend',
     demo: 'https://redjods.netlify.app/'
   },
   {
     id:3,
     image: img3,
-    title: 'RedJods Fundacion juvenil',
+    title: 'Videolopers Club app de Movies',
     github: 'https://github.com/programateacademy/red-jods-proyectos-backend',
     demo: 'https://redjods.netlify.app/'
   },
   {
     id:4,
     image: img4,
-    title: 'RedJods Fundacion juvenil',
+    title: 'Lista de pendientes funcional tanto backend como frontend',
     github: 'https://github.com/programateacademy/red-jods-proyectos-backend',
     demo: 'https://redjods.netlify.app/'
   },
   {
     id:5,
     image: img5,
-    title: 'RedJods Fundacion juvenil',
+    title: 'Calculadora',
     github: 'https://github.com/programateacademy/red-jods-proyectos-backend',
     demo: 'https://redjods.netlify.app/'
   },
   {
     id:6,
     image: img6,
-    title: 'RedJods Fundacion juvenil',
+    title: 'App de Noticias',
     github: 'https://github.com/programateacademy/red-jods-proyectos-backend',
     demo: 'https://redjods.netlify.app/'
   }

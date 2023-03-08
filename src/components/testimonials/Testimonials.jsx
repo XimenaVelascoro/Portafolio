@@ -1,7 +1,6 @@
 import React from "react";
 import "./testimonials.css";
 import piccola from "../../assets/PICCOLA_GERTRU_LOGO.jpg";
-import mom from "../../assets/banner.jpeg";
 import test from "../../assets/test.jpg";
 import test1 from "../../assets/test1.jpg";
 import test2 from "../../assets/test2.jpg";
