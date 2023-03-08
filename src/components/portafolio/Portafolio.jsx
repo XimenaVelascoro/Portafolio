@@ -75,7 +75,12 @@ const Portafolio = () => {
                 >
                   Github
                 </a>
-                <a href={demo} className="btn" target="_blank">
+                <a
+                  href={demo}
+                  className="btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Demostración
                 </a>
               </div>
