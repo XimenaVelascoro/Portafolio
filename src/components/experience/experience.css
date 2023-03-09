@@ -2,6 +2,9 @@
     padding-top: 1rem;
     /*este pequeño cambio me ayudo un montón xD */
 }
+.experience__container small{
+    color: var(--color-white);
+}
 
 .experience__container{
     display: grid;
