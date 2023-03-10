@@ -70,7 +70,7 @@
   }
   /*asi muevo el boton a la derecha*/
  
-.form{
+form{
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
@@ -88,3 +88,23 @@ input, textarea{
     float:right;
     }
     /*debo mover el buttom*/
+
+
+
+/*=============================MEDIA QUERY (MEDIUM)===========================================*/
+@media screen and (max-width: 1024px){
+    .contact__container{
+        grid-template-columns: 1fr;
+        gap:2rem;
+    }   
+}
+
+/*=============================MEDIA QUERY (SMALLDEVICES)===========================================*/
+
+@media screen and (max-width: 600px){
+ .contact__container{
+        
+        width: var(--container-width-sm);
+    }   
+
+}
