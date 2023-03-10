@@ -30,7 +30,7 @@ const About = () => {
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
               <small>
-                Desarrollo de una interfaz interactiva para pedidos digitales, sector gastronomia
+                Desarrollo de una interfaz interactiva para pedidos digitales, en el sector gastronomia
               </small>
             </article>  
             <article className="about__card">
@@ -45,9 +45,9 @@ const About = () => {
             Soy una desarrolladora web full-stack junior y he trabajado en el
             desarrollo de aplicaciones web utilizando tecnologías modernas como
             Html, CSS, Javascript, React, Mysql y MongoDB, e realizado pruebas
-            de los diferentes endpoints como postman ademas de herramientas
+            de los diferentes endpoints con postman ademas de herramientas
             complementarias como lo son Figma, Trello, render, netlify o
-            frameworks como lo son boostrapn y Node.js.
+            frameworks como lo son bootstrap y Node.js.
           </p>
           <a href="#contact" className="btn btn-primary">
             Mi Contacto
