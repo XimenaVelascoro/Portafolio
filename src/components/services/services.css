@@ -116,11 +116,15 @@
   .services__container{
     grid-template-columns: 1fr;
     gap: 1rem;
+    width: var(--container-width-sm);
   }
   .service__list-icon{
     display:flex;
   }
   .service3{
     display: none;
+  }
+  .service__list p{
+    width: var(--container-width-sm);
   }
 }

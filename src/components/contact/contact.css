@@ -84,8 +84,10 @@ input, textarea{
 
 }
 .button{
-    display: flex;
-    float:right;
+    
+    grid-template-columns: 100px auto;
+    grid-gap: 10px;
+    
     }
     /*debo mover el buttom*/
 

@@ -50,10 +50,10 @@
 @media screen and (max-width: 600px){
     .portafolio__container{
         grid-template-columns: 1fr;
-        margin-right: 1rem;
+        width: var(--container-width-sm);
     }
     .portafolio__item{
-        width: 18rem;
+        width: var(--container-width-sm);
         height: 30rem;
         margin: 0 0 1rem 1rem;
     }

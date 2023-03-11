@@ -86,6 +86,7 @@ header {
     display: none;
   }
   .foto1{
-    left: calc(13% - 2.4rem);
+    left: calc(13% - 2.1rem);
+    
   }
 }
