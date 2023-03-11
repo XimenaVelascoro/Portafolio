@@ -11,12 +11,10 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_p2ade2c', 'template_jtu9x6p', form.current, 'XURnlQYp_cCnjJ4on')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
+    emailjs.sendForm('service_p2ade2c', 'template_jtu9x6p', form.current, 'CagR6UIGoFo9veEbi')
+
+    e.target.reset()
+      
   };
 
 
@@ -67,10 +65,10 @@ const Contact = () => {
         </div>
 
         {/**end onf contact option  a la izquierda de la pantalla */}
-        <form href={form} onSubmit={sendEmail} action="">
+        <form ref={form} onSubmit={sendEmail} >
           <input
             type="text"
-            name="nombre"
+            name="name"
             placeholder="Aqui va su nombre completo"
             required
           />
