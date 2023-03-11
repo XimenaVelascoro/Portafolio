@@ -73,6 +73,7 @@
 form{
     display: flex;
     flex-direction: column;
+    align-items:end;
     gap: 1.2rem;
   }
 input, textarea{
@@ -83,10 +84,9 @@ input, textarea{
     border: 2px solid var(--color-bg-variant);
 
 }
-.button{
-    
-    grid-template-columns: 100px auto;
-    grid-gap: 10px;
+button{
+    margin-right: 10px;
+    margin-bottom: 3rem;
     
     }
     /*debo mover el buttom*/
