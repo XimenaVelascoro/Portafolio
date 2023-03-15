@@ -1,4 +1,9 @@
+
+
 https://github.com/XimenaVelascoro/Portafolio/issues/2#issue-1625736550 
+https://github.com/XimenaVelascoro/Portafolio/issues/3#issue-1625738042
+https://github.com/XimenaVelascoro/Portafolio/issues/4#issue-1625739158
+https://github.com/XimenaVelascoro/Portafolio/issues/5#issue-1625740043
 https://github.com/XimenaVelascoro/Portafolio/issues/6#issue-1625740946
 
 
