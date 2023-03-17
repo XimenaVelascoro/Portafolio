@@ -1,10 +1,10 @@
 import React from "react";
 import "./portafolio.css";
-import img1 from "../../assets/LOGO RED JODS.png";
+import img1 from "../../assets/test2.jpg";
 import img2 from "../../assets/PICCOLA_GERTRU_LOGO.jpg"; /*en pausa */
 import img3 from "../../assets/proyectAppMusic.png";
 import img4 from "../../assets/frontyBackTodo.png";
-import img5 from "../../assets/calculator.jpg"; /*en pausa*/
+import img5 from "../../assets/calculator.jpg"; 
 import img6 from "../../assets/news.jpg"; /*para comenzar */
 
 //la siguiente matriz es con el fin de hacer un mapeo
@@ -19,37 +19,37 @@ const data = [
   {
     id: 2,
     image: img2,
-    title: "Restaurante Italiano Piccola Gertru Shopping cart Proyect",
-    github: "https://github.com/programateacademy/red-jods-proyectos-backend",
+    title: "Ristaurante Italiano Piccola Gertru Shopping cart Proyect: en proceso",
+    github: "https://github.com/XimenaVelascoro/PiccolaGertru",
     demo: "https://redjods.netlify.app/",
   },
   {
     id: 3,
     image: img3,
     title: "Videolopers Club app de Movies",
-    github: "https://github.com/programateacademy/red-jods-proyectos-backend",
-    demo: "https://redjods.netlify.app/",
+    github: "https://github.com/jefdavgar/videoclub",
+    demo: "https://videoclub-seven.vercel.app/",
   },
   {
     id: 4,
     image: img4,
-    title: "Lista de pendientes funcional tanto backend como frontend",
-    github: "https://github.com/programateacademy/red-jods-proyectos-backend",
-    demo: "https://redjods.netlify.app/",
+    title: "Lista de pendientes funcional tanto backend como frontend repo back y repo front",
+    github: "https://github.com/ruthyi/Backend-TODOLIST",
+    demo: "https://github.com/Manuperex/toDoList",
   },
   {
     id: 5,
     image: img5,
-    title: "Calculadora",
-    github: "https://github.com/programateacademy/red-jods-proyectos-backend",
-    demo: "https://redjods.netlify.app/",
+    title: "Calculadora completamente funcional",
+    github: "https://github.com/XimenaVelascoro/Calculadora",
+    demo: "https://myfirstbeautycalculator.netlify.app/",
   },
   {
     id: 6,
     image: img6,
-    title: "App de Noticias",
-    github: "https://github.com/programateacademy/red-jods-proyectos-backend",
-    demo: "https://redjods.netlify.app/",
+    title: "App de noticias: Proyecto por empezar",
+    github: "https://github.com/XimenaVelascoro/RickandMorty",
+    demo: "https://rickandmorty-funnycharacters.netlify.app/",
   },
 ];
 

@@ -11,7 +11,7 @@ const HeaderSocials = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <BsLinkedin />
+        < BsLinkedin  />
       </a>
       <a
         href="https://github.com/XimenaVelascoro"

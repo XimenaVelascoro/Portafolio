@@ -29,6 +29,10 @@ header {
   left: 2rem;
   top: 18rem;
 }
+.header__socials a svg {
+  width: 1.6rem;
+  height: 1.6rem;
+}
 /*pseudo elemento posterior*/
 .header__socials::after {
   content: "";
@@ -86,7 +90,7 @@ header {
     display: none;
   }
   .foto1{
-    left: calc(13% - 2.1rem);
+    left: calc(13% - 1.1rem);
     
   }
 }

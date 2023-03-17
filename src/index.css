@@ -81,7 +81,7 @@ html {
   section > h5 {
     text-align: center;
     color: var(--color-bg);
-    margin-top: 6rem;
+    margin-top: 1rem;
     font-size: 1rem;
   }
   section > h2 {
@@ -92,14 +92,11 @@ html {
   }
   /*hijo directo de cada section
   como subtitulo y titulo en cada section*/
-  /*section > h2, section > h5 {
-    text-align: center;
-    color: var(--color-light);
-  }*/
+ 
   /*aqui ira el color primario de cada titulo */
   section > h2 {
     color: var(--color-bg);
-    margin-bottom: 3rem;
+    margin-bottom: 0.5rem;
   }
   
   .text-light {

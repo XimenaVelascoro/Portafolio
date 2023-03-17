@@ -6,6 +6,9 @@
     color: var(--color-bg);
 }
 
+.experience h5{
+
+}
 
 .experience__container{
     display: grid;

@@ -36,7 +36,7 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Puede mandar un correo dando click aqui{" "}
+              Dejame un Email si te puedo ser de ayuda  {" "}
             </a>
           </article>
 
@@ -48,7 +48,7 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Este enlace le manda a mi Messenger{" "}
+              Por aqui podemos hablar via Messenger{" "}
             </a>
           </article>
           <article className="contact_option">
@@ -59,7 +59,7 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Y este enlace a mi Whatsapp{" "}
+              Hablemos por Whatsapp{" "}
             </a>
           </article>
         </div>
@@ -69,7 +69,7 @@ const Contact = () => {
           <input
             type="text"
             name="name"
-            placeholder="Aqui va su nombre completo"
+            placeholder="Aqui va el nombre de la empresa"
             required
           />
           <input
@@ -81,7 +81,7 @@ const Contact = () => {
           <textarea
             name="message"
             rows="7"
-            placeholder="Aqui puede dejar un mensaje para ponernos en contacto"
+            placeholder="Aqui puedes dejar un mensaje para ponernos en contacto."
             required
           ></textarea>
           <button type="submit" className="btn btn-primary">

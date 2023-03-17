@@ -47,7 +47,7 @@ const About = () => {
             Html, CSS, Javascript, React, Mysql y MongoDB, e realizado pruebas
             de los diferentes endpoints con postman ademas de herramientas
             complementarias como lo son Figma, Trello, render, netlify o
-            frameworks como lo son bootstrap y Node.js.
+            frameworks como lo son bootstrap y Node.js. 
           </p>
           <a href="#contact" className="btn btn-primary">
             Mi Contacto

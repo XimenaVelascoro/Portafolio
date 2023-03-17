@@ -2,8 +2,12 @@
   display: grid;
   grid-template-columns: 35% 50%;
   /*de izq 35 y de derecha 50*/
-  gap: 10%;
+  gap: 8%;
 
+}
+
+#about h2{
+  margin-bottom: 0.5rem;
 }
 
 .about__me {
