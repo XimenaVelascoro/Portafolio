@@ -21,7 +21,7 @@ const data = [
     image: img2,
     title: "Ristaurante Italiano Piccola Gertru Shopping cart Proyect: en proceso",
     github: "https://github.com/XimenaVelascoro/PiccolaGertru",
-    demo: "https://redjods.netlify.app/",
+    demo: "https://ristorantepiccolagertru.netlify.app/",
   },
   {
     id: 3,
