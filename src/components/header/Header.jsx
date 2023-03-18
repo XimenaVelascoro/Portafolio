@@ -1,6 +1,6 @@
 import React from "react";
 import "./header.css";
-import ME from "../../assets/ME.png";
+import ME from "../../assets/developer.gif";
 import CTA from "./CTA";
 import HeaderSocials from "./HeaderSocials";
 
@@ -8,8 +8,8 @@ const Header = () => {
   return (
     <header>
       <div className="header">
-        <h3 className="text-light">Hi I'm </h3>
-        <h2 id="home" >Laura Ximena Velasco Rocha</h2>
+        <h3 id="home" className="text-light">Hi I'm </h3>
+        <h2  >Laura Ximena Velasco Rocha</h2>
         <h2 className="text-light">Fullstack Developer</h2>
         <CTA />
         <HeaderSocials/>

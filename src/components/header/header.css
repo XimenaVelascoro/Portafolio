@@ -1,6 +1,6 @@
 header {
   height:50em;
-  padding-top: 4rem;
+  padding-top: 3rem;
   overflow: hidden;
 }
 .header {
@@ -10,10 +10,11 @@ header {
 }
 .header h2{
   color: var(--color-bg);
+  margin-top: 0;
 }
 /* ============ CTA ============ */
 .CTA {
-  margin-top: 2.5rem;
+  margin-top: 0.85rem;
   /*esto es por si hubiesen 2 botones con lña funcion GAP: 1.2 rem les doy espacio entre estos*/
   display: flex;
   justify-content: center;
@@ -45,14 +46,14 @@ header {
   /*el fondo de mi foto es azul agua marina PARA TENER EN CUENTA*/
   background: linear-gradient(var(--color-primary), transparent);
   width: 22rem;
-  height: 30rem;
+  height: 22rem;
   position: absolute;
   left: calc(50% - 11rem);
   /* lo anterio tambien se puede lograr de la siguiente manera
    left:50%; transform: translateX(-50$%)
    el borde se le da a cada esquina*/
-  margin-top: 4rem;
-  border-radius: 12rem 12rem 0 0;
+  margin-top: 1.2rem;
+  border-radius: 8rem 8rem 0 0;
   overflow: hidden;
   /*para evitar que el contenido largo se muestre fuera de los límites
    de la caja o tener un desbordamiento oculto.*/
