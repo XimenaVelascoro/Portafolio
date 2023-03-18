@@ -55,7 +55,7 @@
 form{
     display: flex;
     flex-direction: column;
-    align-items:end;
+    align-items:flex-end;
     gap: 1.2rem;
   }
 input, textarea{
