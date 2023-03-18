@@ -2,9 +2,9 @@ import React from "react";
 import "./portafolio.css";
 import img1 from "../../assets/test2.jpg";
 import img2 from "../../assets/PICCOLA_GERTRU_LOGO.jpg"; /*en pausa */
-import img3 from "../../assets/proyectAppMusic.png";
+import img5 from "../../assets/proyectAppMusic.png";
 import img4 from "../../assets/frontyBackTodo.png";
-import img5 from "../../assets/calculator.jpg"; 
+import img3 from "../../assets/calculator.jpg"; 
 import img6 from "../../assets/news.jpg"; /*para comenzar */
 
 //la siguiente matriz es con el fin de hacer un mapeo
@@ -26,10 +26,11 @@ const data = [
   {
     id: 3,
     image: img3,
-    title: "Videolopers Club app de Movies",
-    github: "https://github.com/jefdavgar/videoclub",
-    demo: "https://videoclub-seven.vercel.app/",
-  },
+    title: "Calculadora completamente funcional",
+    github: "https://github.com/XimenaVelascoro/Calculadora",
+    demo: "https://myfirstbeautycalculator.netlify.app/",
+  }
+  ,
   {
     id: 4,
     image: img4,
@@ -40,9 +41,9 @@ const data = [
   {
     id: 5,
     image: img5,
-    title: "Calculadora completamente funcional",
-    github: "https://github.com/XimenaVelascoro/Calculadora",
-    demo: "https://myfirstbeautycalculator.netlify.app/",
+    title: "Videolopers Club app de Movies",
+    github: "https://github.com/jefdavgar/videoclub",
+    demo: "https://videoclub-seven.vercel.app/",
   },
   {
     id: 6,
