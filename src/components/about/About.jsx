@@ -20,22 +20,22 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <FiAward className="about__icon" />
-              <h5>Experience</h5>
+              <h5>Experiencia</h5>
               <small>
                 He estado practicando diferentes lenguajes de programación
-                fullstack durante los ultimos 5 meses
+                fullstack durante los ultimos meses
               </small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
-              <h5>Clients</h5>
+              <h5>Clientes</h5>
               <small>
                 Desarrollo de una interfaz interactiva para pedidos digitales, en el sector gastronomia
               </small>
             </article>  
             <article className="about__card">
               <BsFolderPlus className="about__icon" />
-              <h5>Projects</h5>
+              <h5>Proyectos</h5>
               <small>
                 7+ Proyectos Completos realizados en el Bootcamp{" "}
               </small>
