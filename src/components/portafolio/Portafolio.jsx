@@ -2,10 +2,11 @@ import React from "react";
 import "./portafolio.css";
 import img1 from "../../assets/test2.jpg";
 import img2 from "../../assets/PICCOLA_GERTRU_LOGO.jpg"; /*en pausa */
-import img5 from "../../assets/proyectAppMusic.png";
-import img4 from "../../assets/frontyBackTodo.png";
 import img3 from "../../assets/calculator.jpg"; 
-import img6 from "../../assets/news.jpg"; /*para comenzar */
+import img4 from "../../assets/webt.png"
+import img5 from "../../assets/proyectAppMusic.png";
+import img6 from "../../assets/frontyBackTodo.png";
+import img7 from "../../assets/news.jpg"; /*para comenzar */
 
 //la siguiente matriz es con el fin de hacer un mapeo
 const data = [
@@ -29,25 +30,35 @@ const data = [
     title: "Calculadora completamente funcional",
     github: "https://github.com/XimenaVelascoro/Calculadora",
     demo: "https://myfirstbeautycalculator.netlify.app/",
-  }
-  ,
+  },
   {
     id: 4,
     image: img4,
-    title: "Lista de pendientes funcional tanto backend como frontend repo back y repo front",
-    github: "https://github.com/ruthyi/Backend-TODOLIST",
-    demo: "https://github.com/Manuperex/toDoList",
+    title: "Web Tributo, este fue mi primer proyecto antes de conocer JavaScript",
+    github: "https://github.com/XimenaVelascoro/web-tributo",
+    demo: "https://tributepagejesus.netlify.app/",
   },
-  {
-    id: 5,
-    image: img5,
-    title: "Videolopers Club app de Movies",
-    github: "https://github.com/jefdavgar/videoclub",
-    demo: "https://videoclub-seven.vercel.app/",
-  },
+  
+
+    {
+      id: 5,
+      image: img5,
+      title: "Videolopers Club app de Movies",
+      github: "https://github.com/jefdavgar/videoclub",
+      demo: "https://videoclub-seven.vercel.app/",
+    },
+    
   {
     id: 6,
     image: img6,
+    title: "Lista de pendientes funcional tanto backend como frontend comparto los links tanto repo back como repo front",
+    github: "https://github.com/ruthyi/Backend-TODOLIST",
+    demo: "https://github.com/Manuperex/toDoList",
+  
+  },
+  {
+    id: 7,
+    image: img7,
     title: "App de noticias: Proyecto por empezar",
     github: "https://github.com/XimenaVelascoro/RickandMorty",
     demo: "https://rickandmorty-funnycharacters.netlify.app/",
