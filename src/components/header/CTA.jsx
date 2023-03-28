@@ -1,5 +1,5 @@
 import React from 'react';
-import hv from '../../assets/Ximena_Velasco_Dev_Hv-1.pdf';
+import hv from '../../assets/Ximena_Velasco_Dev_Hv.pdf';
 
 
 const CTA = () => {
