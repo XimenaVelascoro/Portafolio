@@ -13,7 +13,7 @@ const data = [
   {
     id: 1,
     image: img1,
-    title: "RedJods Fundacion juvenil",
+    title: "RedJods Fundacion juvenil, proyecto final con un cliente real",
     github: "https://github.com/programateacademy/red-jods-proyectos-backend",
     demo: "https://redjods.netlify.app/",
   },
